@@ -87,7 +87,7 @@ export default function DeliveryPage() {
       </List>
 
       <Grid container spacing={2}>
-        <Grid item xs={12} sm={6}>
+        <Grid size={{ xs: 12, md: 6 }}>
           <Card sx={{ marginBottom: 2 }}>
             <CardContent>
               <Typography variant="h6">Адрес доставки</Typography>
@@ -101,7 +101,7 @@ export default function DeliveryPage() {
           </Card>
         </Grid>
 
-        <Grid item xs={12} sm={6}>
+        <Grid size={{ xs: 12, md: 6 }}>
           <Card sx={{ marginBottom: 2 }}>
             <CardContent>
               <Typography variant="h6">Стоимость доставки</Typography>
